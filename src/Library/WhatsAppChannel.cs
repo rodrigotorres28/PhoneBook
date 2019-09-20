@@ -1,3 +1,5 @@
+using WhatsAppApiUCU;
+
 namespace Library
 {
     public class WhatsAppChannel : IMessageChannel
