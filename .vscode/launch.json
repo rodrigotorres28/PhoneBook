@@ -10,13 +10,12 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/Program/bin/Debug/netcoreapp2.1/Program.dll",
+            "program": "${workspaceFolder}/src/LibraryWpp/bin/Debug/netcoreapp2.2/WhatsAppApiUCU.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/Program",
-            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "cwd": "${workspaceFolder}/src/LibraryWpp",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
-            "stopAtEntry": false,
-            "internalConsoleOptions": "openOnSessionStart"
+            "stopAtEntry": false
         },
         {
             "name": ".NET Core Attach",
@@ -24,5 +23,5 @@
             "request": "attach",
             "processId": "${command:pickProcess}"
         }
-    ,]
+    ]
 }

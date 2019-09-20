@@ -6,6 +6,11 @@ namespace Library
     {
         private List<Contact> persons;
 
+        public void AddContact(Contact contact)
+        {
+            this.persons.Add(contact);
+        }
+
         public Phonebook(Contact owner)
         {
             this.Owner = owner;
