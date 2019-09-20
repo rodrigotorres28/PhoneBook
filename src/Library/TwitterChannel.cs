@@ -12,8 +12,6 @@ namespace Library
         {
             var twitter = new TwitterMessage(consumerKey, consumerKeySecret, accessToken, accessTokenSecret);
             twitter.SendMessage(message.Text, message.To.TwitterID);
-
-            throw new System.NotImplementedException();
         }
     }
 }
