@@ -10,7 +10,7 @@ namespace Library
             const string authToken = "fdcaac12dc7e5b031908429ee402e7a4";
 
             var whatsApp = new WhatsAppApi(accountSid, authToken);
-            whatsApp.Send(message.To, message.Text);
+            whatsApp.Send(message.To.Phone, message.Text);
         }
     }
 }

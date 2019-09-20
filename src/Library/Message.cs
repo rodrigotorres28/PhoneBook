@@ -2,7 +2,7 @@ namespace Library
 {
     public class Message
     {
-        protected Message(Contact from, Contact to)
+        public Message(Contact from, Contact to)
         {
             this.From = from;
             this.To = to;
